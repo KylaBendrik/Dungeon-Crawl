@@ -13,7 +13,6 @@ defmodule DungeonCrawl.CLI.HeroChoice do
     |> display_options
     |> generate_question
     |> Shell.prompt
-    |> parse_answer
     |> find_hero_by_index.()
     |> confirm_hero
   end

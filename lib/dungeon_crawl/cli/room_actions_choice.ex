@@ -13,7 +13,6 @@ defmodule DungeonCrawl.CLI.RoomActionsChoice do
       |> display_options
       |> generate_question
       |> Shell.prompt
-      |> parse_answer
       |> find_action_by_index.()
 
     {room, chosen_action}
