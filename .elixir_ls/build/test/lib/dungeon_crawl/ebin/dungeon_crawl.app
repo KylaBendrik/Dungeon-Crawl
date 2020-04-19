@@ -1,5 +1,5 @@
 {application,dungeon_crawl,
-             [{applications,[kernel,stdlib,elixir,logger]},
+             [{applications,[kernel,stdlib,elixir,logger,monadex]},
               {description,"dungeon_crawl"},
               {modules,['Elixir.DungeonCrawl','Elixir.DungeonCrawl.Battle',
                         'Elixir.DungeonCrawl.CLI.BaseCommands',
