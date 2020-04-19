@@ -4,6 +4,7 @@
               {modules,['Elixir.DungeonCrawl','Elixir.DungeonCrawl.Battle',
                         'Elixir.DungeonCrawl.CLI.BaseCommands',
                         'Elixir.DungeonCrawl.CLI.HeroChoice',
+                        'Elixir.DungeonCrawl.CLI.InvalidOptionError',
                         'Elixir.DungeonCrawl.CLI.Main',
                         'Elixir.DungeonCrawl.CLI.RoomActionsChoice',
                         'Elixir.DungeonCrawl.Character',
