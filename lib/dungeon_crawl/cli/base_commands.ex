@@ -15,6 +15,11 @@ defmodule DungeonCrawl.CLI.BaseCommands do
     "Which one? [#{options}]\n"
   end
 
+  def parse_answer(answer) do
+    {option, _} = Integer.parse(answer)
+    option - 1
+  end
+
   def parse_answer!(answer) do
     case Integer.parse(answer) do
       :error ->
